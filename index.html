@@ -11,17 +11,27 @@
 body {
   background-color: #212538
 }
-h3,h2,p {
+h3,h2 {
   color: white;
-  margin-left: 32px;
+  margin-left: 16px;
 }
 img{
   margin-left: 16px;
 }
-
+p {
+  color:white;
+  margin-left: 16px;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  }
 </style>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-sm navbar-fixed-top navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html">Inicio</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -55,13 +65,14 @@ img{
           </div>
         </div>
       </nav>
+      <br><br><br><br><br>
       <h2>Presentación:</h2>
       <br>
       <p class="text-center">Hola, soy Marcos, alumno de 1ºSMR y en esta web voy a hablar sobre Windows 10, pasando por su historia, antiguas versiones, <br>
-      sistema de particiones y gestor de archivos entre otros.</p>
-      </p>
+      sistema de particiones y gestor de archivos entre otros.</p></td>
       <div class="text-center">
       <img src="media/banner-Windows.jpg" alt="Aquí va una imagen" style="width:720px;height:480px;">
-    </div>
+      </div>
+    </p>
     </body>
 </html>
