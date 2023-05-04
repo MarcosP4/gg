@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Marcos Windows 10</title>
+</head>
+<style>
+body {
+  background-color: #212538
+}
+h5,h4 {
+    color: aquamarine;
+    margin-left: 16px;
+}
+h3,p {
+  color: white;
+  margin-left: 16px;
+}
+
+</style>
+<body>
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">Inicio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Historia de windows.html">Historia de Windows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Requisitos windows.html">Requisitos de Windows 10</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="funcionalidades basicas.html">Funcionalidades básicas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="particiones.html">Almacenamiento y particiones</a>
+          </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="modos inicio.html">Modos de inicio</a>
+        </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Bibliografía.html">Bibliografía</a>
+          </li>
+                </ul>
+              </li>
+            </ul>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h3>Almacenamiento y particiones</h3>
+      <h4>MBR y GPT</h4>
+
+      <p>Existen 2 tipos de particiones: MBR y GPT, cada una tiene sus ventajas 
+        e inconvenientes por lo que dependiendo de qué sistema uses y los 
+        componentes de tu ordenador, puede que te convenga utilizar uno u otro.</p>
+        <h5>MBR</h5>
+        <p>Master Boot Record es un tipo de partición más antiguo, creado por 
+            IBM en 1983, al ser tan antiguo tiene la ventaja de ser compatible 
+            con la gran mayoría de SO, pero el inconveniente de que no soporta 
+            discos de más de 2TB</p>
+        <div style="margin-left: 32px;" >
+        <img src="media/MBR.png" alt="aquí va una foto" style="width:760px;height:340px;">
+        </div>
+        <h5>GPT</h5>
+        <p>GUID Partition Table es un estándar más moderno que MBR, 
+            siendo así más rápido que este, también permite un número de tablas ilimitadas,
+            sin embargo, los sistemas operativos marcan un límite, por ejemplo windows 
+            establece un máximo de 128 particiones.
+        </p>
+
+        <img src="media/GPT.png" alt="aqui va una imagen">
+
+        <p>Windows 10, permite el uso de ambos sistemas de particiones, 
+        por lo que podemos elegir el que más nos convenga dependiendo 
+        de nuestras necesidades.
+        </p>
+</body>
+</html>
